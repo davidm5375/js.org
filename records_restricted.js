@@ -17,11 +17,13 @@
 
 var cnames_restricted = [
     "(1/2/3/...)",
+    "(a/b/c/...)",
     "a11y",
     "about",
     "account(s)",
     "ad(s)",
     "admin(s)",
+    "ai",
     "answer(s)",
     "api(s)",
     "app(s)",
@@ -78,6 +80,7 @@ var cnames_restricted = [
     "director(y/ies)",
     "dns",
     "doc(s)",
+    "dom",
     "domain(s)",
     "donate(s)",
     "dyn",
@@ -238,7 +241,7 @@ var cnames_restricted = [
     "uri(s)",
     "url(s)",
     "user(s)",
-    "utility",
+    "util(s/ity/ities)",
     "validate",
     "var(s)",
     "virtual",
@@ -254,3 +257,17 @@ var cnames_restricted = [
     "www(1/2/3/42)",
     "xml"
 ]
+
+/*
+ **** RETIRED SUBDOMAINS
+ * ****************************
+ *
+ * The following subdomains were previously active but have been retired
+ * They are restricted to prevent domain squatting.
+ *
+ */
+
+var cnames_retired = [
+    "popper" // #627
+]
+
